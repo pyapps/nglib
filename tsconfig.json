@@ -14,6 +14,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "py-ui": [
+        "dist/py-ui/py-ui",
+        "dist/py-ui"
+      ]
+    },
     "target": "es2015",
     "module": "es2020",
     "lib": [
